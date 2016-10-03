@@ -1,8 +1,8 @@
 "use strict"
 
 // GLOBAL CONTEXT
-const PI = Math.PI;
-
+this.PI = Math.PI;
+var PI = this.PI;
 /*
 node => this.process.version
 version node : 'v6.5.0'
